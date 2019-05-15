@@ -1,4 +1,5 @@
 # Escriba su código aquí
+# actualizado 09052019
 
 sed 's/,/\./' data.csv > out.csv # decimales
 sed 's/;/,/g' out.csv > out2.csv # separador ,
